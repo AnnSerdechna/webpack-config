@@ -4,4 +4,10 @@ const elven = {
   refine: 4
 };
 
+const es6Syntax = {
+  ...elven,
+  leather: 5
+}
+
 console.log('[elven]', elven);
+console.log('[es6Syntax]', es6Syntax);
