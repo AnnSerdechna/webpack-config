@@ -13,5 +13,20 @@ main {
 }
 
 button {
-  background-color: red;
+  background-color: transparent;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+  border-color: #fff;
 }
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+// ul {
+//   list-style-image: url("../images/Image-File-icon.png");
+// }
