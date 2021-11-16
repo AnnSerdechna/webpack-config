@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const elven = {
   leather: 2,
   iron: 1,
@@ -11,3 +13,5 @@ const es6Syntax = {
 
 console.log('[elven]', elven);
 console.log('[es6Syntax]', es6Syntax);
+
+// "rimraf dist" 1.17
