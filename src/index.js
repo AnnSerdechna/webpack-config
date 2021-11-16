@@ -1,17 +1,7 @@
-import "./styles/index.scss";
+import { render } from "react-dom";
+import App from "./components/App";
 
-const elven = {
-  leather: 2,
-  iron: 1,
-  refine: 4
-};
+render(<App />, document.getElementById("root"));
 
-const es6Syntax = {
-  ...elven,
-  leather: 5
-}
-
-console.log('[elven]', elven);
-console.log('[es6Syntax]', es6Syntax);
 
 // "rimraf dist" 1.17
