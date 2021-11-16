@@ -1,6 +1,6 @@
 import "../styles/index.scss";
 import Recipes from "./Recipes";
-import image from "../images/img3.jpg"
+import image from "../images/img1.jpg"
 
 function App() {
   return (
