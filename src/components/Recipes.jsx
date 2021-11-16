@@ -1,5 +1,5 @@
+// @refresh reset
 import React from 'react';
-
 const shield = {
   leather: 2,
   iron: 1,
